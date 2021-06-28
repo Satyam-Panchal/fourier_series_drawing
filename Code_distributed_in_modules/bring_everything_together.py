@@ -4,11 +4,21 @@ from fourier_coefficient import *
 coeff = []
 string = []
 js_string = []
+no_of_coeff = 200
 
-for n in range(-200, 201):
-    coeff.append(nth_fourier_coefficient(n))
-    string_element = str(nth_fourier_coefficient(n))
-    string.append(string_element)
+for n in range(0, no_of_coeff+1):
+
+    if n == 0 :
+        coeff.append(nth_fourier_coefficient(n))
+        string_element = str(nth_fourier_coefficient(n))
+        string.append(string_element)
+    else: 
+        coeff.append(nth_fourier_coefficient(int(sin(pi/2) * n)))
+        coeff.append(nth_fourier_coefficient(int(sin((3*pi)/2) * n)))
+        string_element_pos = str(nth_fourier_coefficient(int(sin(pi/2) * n)))
+        string_element_neg = str(nth_fourier_coefficient(int(sin((3*pi)/2) * n)))
+        string.append(string_element_pos)
+        string.append(string_element_neg)
 
 for letter in string:
     new_letter = ""
