@@ -11,7 +11,7 @@ OR If you do not want to go through all this process i have added some absolute 
 Once you feed in the absolute path of svg the main_code.py will provide you with a list of strings, these strings are actually complex fourier coefficients for your drawing, but they are printed in form of string so i can feed them easily to java script code.
 Now this is the embarrassing part as of now, but you will have to copy that string of fourier coefficients, and paste it in the js code , in the file animating_the_drawing.js, once you run it, your drawing should pop up on the browser.
 
-Again , if you dont wanna go through the hassle, you can just run the animating_the_drawing.js code, it is using the "musical note" drawing as an example. and as i said to make it draw something else, you will have to paste the coefficient list for the particular drawing you want, that list you will get from python main_code.py
+Again , if you dont wanna go through the hassle, you can just run the animating_the_drawing.js code, it is using the "Einstein" drawing as an example. and as i said to make it draw something else, you will have to paste the coefficient list for the particular drawing you want, that list you will get from python main_code.py
 
 for the python code in the folder, here is what each file does:
 curves.py --> calculates the complex points of sections of drawings , the bezier curves, to form the function(the same function we are approximating, that is the drawing) that traces the given curve when plotted on a complex point
