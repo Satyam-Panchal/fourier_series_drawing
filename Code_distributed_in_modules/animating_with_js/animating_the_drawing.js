@@ -828,7 +828,7 @@ function setup() {
 }
 
 function draw() {
-  background("#1F2041");
+  background("#000000");
   translate(940, 486);
 
   const scaleCoeff = 3;
