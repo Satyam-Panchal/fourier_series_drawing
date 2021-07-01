@@ -4,7 +4,7 @@ It is easier to understand if you just see what this code does first before read
 
 If you just want to make some drawings and want to know how can you do just that, go here : https://youtu.be/0zXPP7o7_tU
 
-This Program Draws the any closed curve using famous method of fourier epicycle drawings.
+This Program Draws any closed curve using famous method of fourier epicycle drawings.
 This program uses the svgs(scalable vector graphics), it is kind of like a photo file format like png or jpeg.For any drawing you want to make you must have its svg file with you.
 This code is not yet fully automated hence here are some instructions on how can you make your own drawings with it.
 I have created TWO copies of the same code, you should be using the main_code.py file , this file takes in an ABSOLUTE svg file's path and gives you the list of fourier coefficients.Remeber the path should be one continuous string, i.e. the drawing must be in a form of (any) closed loop. 
