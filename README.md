@@ -1,6 +1,8 @@
 # fourier_series_drawing
 
-It is easier to understand if you just see what this code does first before reading all the things below , here you go : https://youtu.be/8PUTl3-sIj0
+It is easier to understand if you just see what this code does first before reading all the things below , here you go : https://youtu.be/vMIwgcIMirU
+
+If you just want to make some drawings and want to know how can you do just that, go here : https://youtu.be/0zXPP7o7_tU
 
 This Program Draws the any closed curve using famous method of fourier epicycle drawings.
 This program uses the svgs(scalable vector graphics), it is kind of like a photo file format like png or jpeg.For any drawing you want to make you must have its svg file with you.
@@ -22,7 +24,4 @@ complex_plotter--> just a peice of code for checking the whether the points calc
 testing_coefficient.py --> can be used to test the fourier coefficients calculated by the program with the help of complex_plotter.py
 bring_everything_together.py --> to calculate the final list of fourier coefficients in the form suitable for feeding into java script code
 
-
-if you want to see the montage of drawing i made , go here : https://youtu.be/8PUTl3-sIj0
-
-I will be updating the code and this read me file soon enough
+I will be updating the code and this read me file at regular intervals.
