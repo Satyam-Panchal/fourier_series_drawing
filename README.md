@@ -7,7 +7,7 @@ If you just want to make some drawings and want to know how can you do just that
 This Program Draws any closed curve using famous method of fourier epicycle drawings.
 This program uses the svgs(scalable vector graphics), it is kind of like a photo file format like png or jpeg.For any drawing you want to make you must have its svg file with you.
 This code is not yet fully automated hence here are some instructions on how can you make your own drawings with it.
-I have created TWO copies of the same code, you should be using the main_code.py file , this file takes in an ABSOLUTE svg file's path and gives you the list of fourier coefficients.Remeber the path should be one continuous string, i.e. the drawing must be in a form of (any) closed loop. 
+I have created TWO copies of the same code, you should be using the main_code.py file , this file takes in an ABSOLUTE svg file's path and gives you the list of fourier coefficients. Remember the path should be one continuous string, i.e. the drawing must be in a form of (any) closed loop. 
 If you do not have the absolute path use the following website to convert the relative path to absolute : https://jsbin.com/mudusiseta/1/edit?html,js,output
 OR If you do not want to go through all this process i have added some absolute svg paths for some svgs i made in the path_strings.py file, you may copy the path of any svg present there, i will update it later on with more svg paths.
 Once you feed in the absolute path of svg the main_code.py will provide you with a list of strings, these strings are actually complex fourier coefficients for your drawing, but they are printed in form of string so i can feed them easily to java script code.
