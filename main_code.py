@@ -2,7 +2,7 @@ import numpy as np
 from math import pi, sin, cos
 import matplotlib.pyplot as plt
 
-no_of_coeff = 500 # number of fourier coefficients are double of this amount , right now there are 10001 Rotating vectors are used
+no_of_coeff = 500 # number of fourier coefficients are double of this amount , right now there are 1001 Rotating vectors are used
 
 
 def complex_plotter(complex_list):
